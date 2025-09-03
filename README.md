@@ -14,16 +14,16 @@ Instructions and requirements may be subject to change.
 
 ### MySQL C++ Connector
 Follow this [tutorial](https://www.youtube.com/watch?v=a_W4zt5sR1M)
-2a. Download MySQL from community downloads
-2b. Click on Connector/C++
-2c. Download Windows (x86, 64-bit), ZIP Archive
-2d. Extract the ZIP file into a libraries folder (or any folder you choose)
-2e. Change config to release and go to the VS 2022 properties page (x64 platform)
-2f. C/C++ -> General | Add include folder of MySQL into Additional Include Directories
-2g. C/C++ -> Preprocessor | Add STATIC_CONCPP; macro to Preprocessor definitions
-2h. C/C++ -> Code Generation | Make sure Runtime Library is set to MD
-2i. Linker -> General | In Additional Library Directories, go to the mysql library folder -> lib64 -> vs14.
-2j. Linker -> Input | In Additional Dependencies add the .lib file. Go to mysql library folder -> lib64 -> mysqlcppconn-static.lib
+- 2a. Download MySQL from community downloads
+- 2b. Click on Connector/C++
+- 2c. Download Windows (x86, 64-bit), ZIP Archive
+- 2d. Extract the ZIP file into a libraries folder (or any folder you choose)
+- 2e. Change config to release and go to the VS 2022 properties page (x64 platform)
+- 2f. C/C++ -> General | Add include folder of MySQL into Additional Include Directories
+- 2g. C/C++ -> Preprocessor | Add STATIC_CONCPP; macro to Preprocessor definitions
+- 2h. C/C++ -> Code Generation | Make sure Runtime Library is set to MD
+- 2i. Linker -> General | In Additional Library Directories, go to the mysql library folder -> lib64 -> vs14.
+- 2j. Linker -> Input | In Additional Dependencies add the .lib file. Go to mysql library folder -> lib64 -> mysqlcppconn-static.lib
 
 
 3. Open project in VS 2022 and configure credentials, copy example env files and use your credentials, then read those files accordingly with the provided readAuthFile function in the ReadAuthFile file.
