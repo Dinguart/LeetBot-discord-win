@@ -1046,3 +1046,6 @@ dkms.conf
 
 # Secrets
 *.env
+!config.example.env
+!cookies.example.env
+!token.example.env
