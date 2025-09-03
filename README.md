@@ -19,7 +19,7 @@ Follow this [tutorial](https://www.youtube.com/watch?v=a_W4zt5sR1M)
 - 2c. Download Windows (x86, 64-bit), ZIP Archive
 - 2d. Extract the ZIP file into a libraries folder (or any folder you choose)
 - 2e. Change config to release and go to the VS 2022 properties page (x64 platform)
-- 2f. C/C++ -> General | Add include folder of MySQL into Additional Include Directories
+- 2f. C/C++ -> General | Add include folder of MySQL into Additional Include Directories (jdbc)
 - 2g. C/C++ -> Preprocessor | Add STATIC_CONCPP; macro to Preprocessor definitions
 - 2h. C/C++ -> Code Generation | Make sure Runtime Library is set to MD
 - 2i. Linker -> General | In Additional Library Directories, go to the mysql library folder -> lib64 -> vs14.
